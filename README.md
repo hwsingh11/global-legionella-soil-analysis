@@ -85,6 +85,9 @@ data/vsearch_dereplicated/db_list.txt
 Filter to Deblur ASVs
 bash scripts/02_sequence_processing/run_filter_to_deblur_asvs.sh
 
+-----------------------------------------------------------------------------
+
+
 **03. Legionella Detection**
 
 Run BLAST against custom database
@@ -124,6 +127,9 @@ data/confirmed_legionella_fastas/
 Each file contains:
 Only phylogenetically confirmed Legionella sequences
 Original FASTA headers (including size= abundance values)
+
+-----------------------------------------------------------------------------
+
 
 **04. Abundance Extraction**
 
