@@ -35,26 +35,29 @@ scripts/
   
   04_abundance_tables/
 
-data/
-  reference_database/
-
-metadata/
 
 Note: Raw sequence data and intermediate FASTA files are not included due to size constraints.
+
 
 **01. Metadata Processing**
 
 Extract climate variables from WorldClim:
 
 Rscript scripts/01_metadata_processing/extract_worldclim_climate.R
+
 Input: metadata_coord.csv
+
 Output: metadata_coord_with_worldclim.csv
 
 This script extracts:
 
 Monthly temperature for exact collection dates
+
 Mean temperature (2016–2018) for range-based samples
+
 Annual precipitation
+
+
 
 **02. Sequence Processing**
 
