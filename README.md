@@ -110,7 +110,7 @@ Extract candidate Legionella sequences
 
 Phylogenetic confirmation (manual step)
 
-- Candidate Legionella sequences were:
+Candidate Legionella sequences were:
 - Combined across samples
 - Phylogenetically placed using PhyML
 - Manually filtered to retain sequences within the Legionella clade
