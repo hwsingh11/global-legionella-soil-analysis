@@ -39,6 +39,7 @@ scripts/
 Note: Raw sequence data and intermediate FASTA files are not included due to size constraints.
 
 
+
 **01. Metadata Processing**
 
 Extract climate variables from WorldClim:
@@ -51,11 +52,11 @@ Output: metadata_coord_with_worldclim.csv
 
 This script extracts:
 
-Monthly temperature for exact collection dates
+-   Monthly temperature for exact collection dates
 
-Mean temperature (2016–2018) for range-based samples
+-   Mean temperature (2016–2018) for range-based samples
 
-Annual precipitation
+-   Annual precipitation
 
 
 
