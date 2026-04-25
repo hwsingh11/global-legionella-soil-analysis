@@ -58,7 +58,7 @@ This script extracts:
 
 -   Annual precipitation
 
-
+-----------------------------------------------------------------------------
 
 **02. Sequence Processing**
 
