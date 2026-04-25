@@ -69,21 +69,25 @@ This script extracts:
 **02. Sequence Processing**
 
 Trim sequences to 150 bp
-bash scripts/02_sequence_processing/trim_sequences_150bp.sh
+
+    bash scripts/02_sequence_processing/trim_sequences_150bp.sh
 
 Run Deblur
-bash scripts/02_sequence_processing/run_deblur.sh
+
+    bash scripts/02_sequence_processing/run_deblur.sh
 
 Dereplicate sequences (VSEARCH)
-bash scripts/02_sequence_processing/run_vsearch_dereplication.sh
+
+    bash scripts/02_sequence_processing/run_vsearch_dereplication.sh
 
 Generate database list
-bash scripts/02_sequence_processing/create_db_list.sh
-This creates:
-data/vsearch_dereplicated/db_list.txt
+
+    bash scripts/02_sequence_processing/create_db_list.sh
+    This creates: data/vsearch_dereplicated/db_list.txt
 
 Filter to Deblur ASVs
-bash scripts/02_sequence_processing/run_filter_to_deblur_asvs.sh
+
+    bash scripts/02_sequence_processing/run_filter_to_deblur_asvs.sh
 
 -----------------------------------------------------------------------------
 
