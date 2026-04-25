@@ -126,6 +126,7 @@ Extract confirmed Legionella sequences
 
     bash scripts/03_legionella_detection/run_extract_confirmed_legionella_asvs.sh
     Output: data/confirmed_legionella_fastas/
+    ------------------------
     Each file contains:
       - Only phylogenetically confirmed Legionella sequences
       - Original FASTA headers (including size= abundance values)
