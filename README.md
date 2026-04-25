@@ -7,18 +7,31 @@ This repository documents the workflow used to detect and quantify Legionella AS
 The pipeline consists of the following steps:
 
 Metadata processing and climate variable extraction
+
 Sequence processing (trimming, Deblur, VSEARCH dereplication)
+
 Filtering sequences to Deblur ASVs
+
 BLAST-based detection of candidate Legionella sequences
+
 Extraction of candidate Legionella sequences per sample
+
 Phylogenetic confirmation of Legionella ASVs
+
 Extraction of confirmed Legionella sequences per sample
+
 Extraction of abundance information from FASTA size= annotations
+
 Repository Structure
+
 scripts/
+
   01_metadata_processing/
+  
   02_sequence_processing/
+  
   03_legionella_detection/
+  
   04_abundance_tables/
 
 data/
