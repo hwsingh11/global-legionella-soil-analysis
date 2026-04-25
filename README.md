@@ -31,13 +31,13 @@ The pipeline consists of the following steps:
 
 scripts/
 
-  01_metadata_processing/
+-   01_metadata_processing/
   
-  02_sequence_processing/
+-   02_sequence_processing/
   
-  03_legionella_detection/
+-   03_legionella_detection/
   
-  04_abundance_tables/
+-   04_abundance_tables/
 
 
 Note: Raw sequence data and intermediate FASTA files are not included due to size constraints.
