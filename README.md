@@ -2,7 +2,7 @@
 
 This repository documents the workflow used to detect and quantify Legionella ASVs from publicly-available soil 16S amplicon sequencing data using a two-step taxonomic classification approach.
 
-Workflow Overview
+**Workflow Overview**
 
 The pipeline consists of the following steps:
 
@@ -28,7 +28,7 @@ metadata/
 
 Note: Raw sequence data and intermediate FASTA files are not included due to size constraints.
 
-01. Metadata Processing
+**01. Metadata Processing**
 
 Extract climate variables from WorldClim:
 
@@ -42,7 +42,7 @@ Monthly temperature for exact collection dates
 Mean temperature (2016–2018) for range-based samples
 Annual precipitation
 
-02. Sequence Processing
+**02. Sequence Processing**
 
 Trim sequences to 150 bp
 bash scripts/02_sequence_processing/trim_sequences_150bp.sh
@@ -61,7 +61,7 @@ data/vsearch_dereplicated/db_list.txt
 Filter to Deblur ASVs
 bash scripts/02_sequence_processing/run_filter_to_deblur_asvs.sh
 
-03. Legionella Detection
+**03. Legionella Detection**
 
 Run BLAST against custom database
 bash scripts/03_legionella_detection/run_custom_blast.sh
@@ -101,7 +101,7 @@ Each file contains:
 Only phylogenetically confirmed Legionella sequences
 Original FASTA headers (including size= abundance values)
 
-04. Abundance Extraction
+**04. Abundance Extraction**
 
 Extract counts from FASTA headers:
 bash scripts/04_abundance_tables/run_extract_confirmed_legionella_counts.sh
