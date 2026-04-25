@@ -2,6 +2,8 @@
 
 This repository documents the workflow used to detect and quantify Legionella ASVs from publicly-available soil 16S amplicon sequencing data using a two-step taxonomic classification approach.
 
+-----------------------------------------------------------------------------
+
 **Workflow Overview**
 
 The pipeline consists of the following steps:
@@ -22,6 +24,8 @@ Extraction of confirmed Legionella sequences per sample
 
 Extraction of abundance information from FASTA size= annotations
 
+-----------------------------------------------------------------------------
+
 
 **Repository Structure**
 
@@ -37,6 +41,8 @@ scripts/
 
 
 Note: Raw sequence data and intermediate FASTA files are not included due to size constraints.
+
+-----------------------------------------------------------------------------
 
 
 
