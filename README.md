@@ -95,32 +95,29 @@ Filter to Deblur ASVs
 **03. Legionella Detection**
 
 Run BLAST against custom database
-bash scripts/03_legionella_detection/run_custom_blast.sh
-Uses custom database:
-data/reference_database/final_db_both_dir.fasta
+
+  bash scripts/03_legionella_detection/run_custom_blast.sh
+  Uses custom database: data/reference_database/final_db_both_dir.fasta
+
 
 Extract candidate Legionella sequences
-bash scripts/03_legionella_detection/run_extract_blast_legionella_hits.sh
-
-This step:
-
-Filters BLAST results using prefix f_leg_
-Extracts matching sequences per sample
+  bash scripts/03_legionella_detection/run_extract_blast_legionella_hits.sh
+This step: 
+- Filters BLAST results using prefix f_leg_
+- Extracts sequences matching prefix per sample
 
 Phylogenetic confirmation (manual step)
 
-Candidate Legionella sequences were:
-Combined across samples
-Phylogenetically placed using PhyML
-Manually filtered to retain sequences within the Legionella clade
-Clustered at 99% identity
-Singleton clusters removed
+- Candidate Legionella sequences were:
+- Combined across samples
+- Phylogenetically placed using PhyML
+- Manually filtered to retain sequences within the Legionella clade
+- Clustered at 99% identity
+- Singleton clusters removed
 
 This produces:
-
-data/reference_database/confirmed_leg_asvs_remove_99percent_singletons.fasta
-See:
-scripts/03_legionella_detection/README_confirmed_legionella_reference.md
+    data/reference_database/confirmed_leg_asvs_remove_99percent_singletons.fasta
+    See: scripts/03_legionella_detection/README_confirmed_legionella_reference.md
 
 Extract confirmed Legionella sequences
 bash scripts/03_legionella_detection/run_extract_confirmed_legionella_asvs.sh
