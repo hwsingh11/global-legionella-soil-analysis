@@ -1,4 +1,4 @@
-Legionella Sequence Extraction Pipeline
+**Legionella Sequence Extraction Pipeline**
 
 This repository documents the workflow used to detect and quantify Legionella ASVs from publicly-available soil 16S amplicon sequencing data using a two-step taxonomic classification approach.
 
