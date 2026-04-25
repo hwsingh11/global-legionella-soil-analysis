@@ -158,4 +158,4 @@ bash scripts/02_sequence_processing/create_db_list.sh
 
 Downstream microbiome analyses were performed using standard workflows.
 
-If any questions please contact **hwsingh@hawaii.edu**
+For questions, please contact **hwsingh@hawaii.edu**
