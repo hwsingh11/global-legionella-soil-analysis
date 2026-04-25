@@ -103,6 +103,7 @@ Run BLAST against custom database
 Extract candidate Legionella sequences
 
     bash scripts/03_legionella_detection/run_extract_blast_legionella_hits.sh
+    
     This step: 
       - Filters BLAST results using prefix f_leg_
       - Extracts sequences matching prefix per sample
@@ -117,18 +118,17 @@ Phylogenetic confirmation (manual step)
 - Singleton clusters removed
 
 This produces:
-    data/reference_database/confirmed_leg_asvs_remove_99percent_singletons.fasta
-    See: scripts/03_legionella_detection/README_confirmed_legionella_reference.md
+
+      data/reference_database/confirmed_leg_asvs_remove_99percent_singletons.fasta
+      See: scripts/03_legionella_detection/README_confirmed_legionella_reference.md
 
 Extract confirmed Legionella sequences
-bash scripts/03_legionella_detection/run_extract_confirmed_legionella_asvs.sh
 
-Output:
-data/confirmed_legionella_fastas/
-
-Each file contains:
-Only phylogenetically confirmed Legionella sequences
-Original FASTA headers (including size= abundance values)
+    bash scripts/03_legionella_detection/run_extract_confirmed_legionella_asvs.sh
+    Output: data/confirmed_legionella_fastas/
+    Each file contains:
+      - Only phylogenetically confirmed Legionella sequences
+      - Original FASTA headers (including size= abundance values)
 
 -----------------------------------------------------------------------------
 
