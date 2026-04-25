@@ -22,7 +22,8 @@ Extraction of confirmed Legionella sequences per sample
 
 Extraction of abundance information from FASTA size= annotations
 
-Repository Structure
+
+**Repository Structure**
 
 scripts/
 
