@@ -96,8 +96,8 @@ Filter to Deblur ASVs
 
 Run BLAST against custom database
 
-  bash scripts/03_legionella_detection/run_custom_blast.sh
-  Uses custom database: data/reference_database/final_db_both_dir.fasta
+    bash scripts/03_legionella_detection/run_custom_blast.sh
+    Uses custom database: data/reference_database/final_db_both_dir.fasta
 
 
 Extract candidate Legionella sequences
