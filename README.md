@@ -50,11 +50,11 @@ Note: Raw sequence data and intermediate FASTA files are not included due to siz
 
 Extract climate variables from WorldClim:
 
-Rscript scripts/01_metadata_processing/extract_worldclim_climate.R
+    Rscript scripts/01_metadata_processing/extract_worldclim_climate.R
 
-Input: metadata_coord.csv
+    Input: metadata_coord.csv
 
-Output: metadata_coord_with_worldclim.csv
+    Output: metadata_coord_with_worldclim.csv
 
 This script extracts:
 
