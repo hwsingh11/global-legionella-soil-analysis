@@ -126,7 +126,7 @@ Extract confirmed Legionella sequences
 
     bash scripts/03_legionella_detection/run_extract_confirmed_legionella_asvs.sh
     Output: data/confirmed_legionella_fastas/
-    ------------------------
+    --------------------------------------------------------
     Each file contains:
       - Only phylogenetically confirmed Legionella sequences
       - Original FASTA headers (including size= abundance values)
@@ -137,16 +137,17 @@ Extract confirmed Legionella sequences
 **04. Abundance Extraction**
 
 Extract counts from FASTA headers:
-bash scripts/04_abundance_tables/run_extract_confirmed_legionella_counts.sh
 
-Output:
-data/confirmed_legionella_counts.tsv
+    bash scripts/04_abundance_tables/run_extract_confirmed_legionella_counts.sh
+    Output: data/confirmed_legionella_counts.tsv
+    --------------------------------------------------------
+    Format:
+    sample    asv_id    count
+    Counts are derived from size= annotations in FASTA headers.
+    
+-----------------------------------------------------------------------------
+**Data Availability**
 
-Format:
-sample    asv_id    count
-Counts are derived from size= annotations in FASTA headers.
-
-Data Availability:
 Intermediate files (e.g., trimmed FASTA, Deblur outputs, dereplicated FASTAs) are not included due to size.
 
 All steps required to regenerate these files are documented in the scripts/ directory.
