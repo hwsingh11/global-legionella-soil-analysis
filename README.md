@@ -101,10 +101,11 @@ Run BLAST against custom database
 
 
 Extract candidate Legionella sequences
-  bash scripts/03_legionella_detection/run_extract_blast_legionella_hits.sh
-This step: 
-- Filters BLAST results using prefix f_leg_
-- Extracts sequences matching prefix per sample
+
+    bash scripts/03_legionella_detection/run_extract_blast_legionella_hits.sh
+    This step: 
+      - Filters BLAST results using prefix f_leg_
+      - Extracts sequences matching prefix per sample
 
 Phylogenetic confirmation (manual step)
 
